@@ -5,9 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/src/style.css" rel="stylesheet" />
   </head>
-  <body>
-    <main class="bg-brand-100 flex h-screen items-center justify-center">
-      <h1 class="text-brand-500 text-3xl font-bold underline">Tailwind CSS Boilerplate</h1>
+  <body class="font-space">
+    <main class="bg-white">
+      <!-- Section Hero -->
+      <div class="flex h-screen w-full items-center">
+        <!-- Layout -->
+        <div class="mx-auto flex w-full max-w-[1240px] flex-row items-center justify-between bg-yellow-500">
+          <!-- Left Content -->
+          <div class="max-w-[531px] flex-1 flex-col">
+            <h1 class="text-6xl font-medium text-black">Navigating the digital landscape for success</h1>
+            <p class="mt-[35px] text-xl font-normal text-black">
+              Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and
+              content creation.
+            </p>
+            <button class="bg-dark mt-[35px] rounded-xl px-9 py-5 text-white">Book a consultation</button>
+          </div>
+          <!-- Right Content -->
+          <img src="/svg/illustration-hero.svg" class="h-[500px] w-[500px]" />
+        </div>
+      </div>
     </main>
   </body>
 </html>
