@@ -4,4 +4,19 @@
   --color-primary: #ff0000;
   --color-secondary: #00ff00;
   --color-tertiary: #0000ff;
+  /* Add Color Variables */
+  --color-brand-50: #f6ffe5;
+  --color-brand-100: #e9ffc7;
+  --color-brand-200: #d2ff95;
+  --color-brand-300: #b9ff66;
+  --color-brand-400: #94f625;
+  --color-brand-500: #73dd05;
+  --color-brand-600: #57b100;
+  --color-brand-700: #428605;
+  --color-brand-800: #37690b;
+  --color-brand-900: #2f590e;
+  --color-brand-950: #163201;
+  --color-dark: #191a23;
+  --color-dark: #f3f3f3;
+  /* End Color Variables */
 }
