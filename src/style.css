@@ -3,6 +3,7 @@
 
 @theme {
   --font-space: 'Space Grotesk', sans-serif;
+  --drop-shadow-card: 0px 5px 0px #191a23;
   /* Batas style */
   --color-primary: #ff0000;
   --color-secondary: #00ff00;
